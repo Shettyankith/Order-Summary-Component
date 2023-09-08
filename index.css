@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pattern-background-desktop.svg");
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+body p{
+    font-size: 13px;
+}
+
+
+.container{
+    border-radius: 19px;
+    background: white;
+    text-align: center;
+    width: 350px;
+}
+
+img{
+    border-radius: 19px  19px 0 0;
+    width: 350px;
+}
+
+.Title{
+    padding-top: 30px ;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.discription{
+    padding-top: 10px;
+    color: #8d99ae;
+    font-weight: 500;
+}
+
+
+.annualplan{
+    display: flex;
+    padding-top: 19px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+
+.annualplan img{
+   height: 35px;
+   width: 50px;
+   padding-right: 15px;
+}
+
+
+.price{
+    padding-right: 60px;
+}
+
+
+.price  h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.price p{
+    color: #8d99ae;
+}
+
+.link{
+    color: blue;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.Payment{
+    width: 280px;
+    height: 35px;
+    border-radius: 9px;
+    color: white;
+    background: blue;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 30px 22px 0px rgba(0,0,0,0.1);
+}
+
+
+.cancel{
+    width: 280px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    color: #8e9aaf;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+
+
+.Payment:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.cancel:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Payment:hover{
+    
+}
+
+@media only screen and (max_width:375px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("pattern-background-mobile.svg");
+        font-family: 'Red Hat Display', sans-serif;
+    }
+    .container{
+        border-radius: 19px;
+        background: white;
+        text-align: center;
+        width: 200px;
+        margin-top: 30px;
+    }
+}
+
+/* width: 280px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    color: #8e9aaf;
+    font-weight: 900;
+    margin-bottom: 30px*/  
